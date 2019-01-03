@@ -7,4 +7,5 @@ _site
 .DS_Store
 Thumbs.db
 ehthumbs.db
-.idea/*
+.idea
+/Gemfile.lock

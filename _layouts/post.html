@@ -8,6 +8,10 @@ layout: base
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
+      {% if page.buy-link %}
+        {% include post_buy_jumbotron.html %}
+      {% endif %}
+
       {% if page.gh-repo %}
         {% assign gh_split =  page.gh-repo | split:'/'  %}
         {% assign gh_user =  gh_split[0]  %}

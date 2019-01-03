@@ -14,7 +14,7 @@ baseurl: "/13f"
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Pants2222
+title: SEC 13f Securities List
 
 # Short description of your site
 description: Eat donkey balls
@@ -184,6 +184,8 @@ exclude:
   - LICENSE
   - README.md
   - Vagrantfile
+  - scripts
+  - data
 
 # prose.io config
 prose:
@@ -240,6 +242,7 @@ prose:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
