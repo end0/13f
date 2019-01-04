@@ -10,3 +10,6 @@ ehthumbs.db
 .idea
 /Gemfile.lock
 /scripts/
+/.github/
+/.gitignore
+/data/
