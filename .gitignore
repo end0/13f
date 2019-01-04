@@ -8,8 +8,8 @@ _site
 Thumbs.db
 ehthumbs.db
 .idea
-/Gemfile.lock
+.github
+Gemfile.lock
 /scripts/
 /.github/
-/.gitignore
 /data/
